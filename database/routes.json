@@ -1,0 +1,8 @@
+{
+  "/boards/DESIGN/tasks": "/board_design_tasks/",
+  "/boards/DESIGN/tasks/:id": "/board_design_tasks/:id",
+  "/boards/DEVELOPMENT/tasks": "/board_development_tasks/",
+  "/boards/DEVELOPMENT/tasks/:id": "/board_development_tasks/:id",
+  "/boards/QA/tasks": "/board_qa_tasks/",
+  "/boards/QA/tasks/:id": "/board_qa_tasks/:id"
+}
