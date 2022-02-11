@@ -12,7 +12,9 @@
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
-    "server": "json-server database/index.json --port 3001 --routes database/routes.json"
+    "server": "json-server database/index.json --port 3001 --routes database/routes.json",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public"
   },
   "dependencies": {
     "@craco/craco": "^7.0.0-alpha.0",
@@ -28,6 +30,14 @@
     "uuid": "^8.3.2"
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^6.4.18",
+    "@storybook/addon-essentials": "^6.4.18",
+    "@storybook/addon-links": "^6.4.18",
+    "@storybook/builder-webpack5": "^6.4.18",
+    "@storybook/manager-webpack5": "^6.4.18",
+    "@storybook/node-logger": "^6.4.18",
+    "@storybook/preset-create-react-app": "^4.0.1",
+    "@storybook/react": "^6.4.18",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
@@ -37,7 +47,8 @@
     "@types/react-dom": "^17.0.11",
     "@types/styled-components": "^5.1.22",
     "@types/uuid": "^8.3.4",
-    "typescript": "^4.5.5"
+    "typescript": "^4.5.5",
+    "webpack": "^5.68.0"
   },
   "eslintConfig": {
     "extends": [
@@ -67,6 +78,14 @@
         "files": [
           "**/*.ts?(x)"
         ]
+      },
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
       }
     ]
   },

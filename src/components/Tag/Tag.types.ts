@@ -1,4 +1,4 @@
-import { colors } from '@/typography';
+import { colors } from 'typography';
 
 export const tagType = {
   primary: colors.green,
@@ -12,4 +12,6 @@ export interface WrapperProps {
   handleClick?: (payload: unknown) => void
 }
 
-export interface TagProps extends WrapperProps {}
+export interface TagProps extends WrapperProps {
+  text: string,
+}
