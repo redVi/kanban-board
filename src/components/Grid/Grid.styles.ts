@@ -12,7 +12,7 @@ export const Wrapper = styled.div`
   }
   
   @media ${device.laptop} {
-    grid-template-columns: repeat(3, minmax(200px, 400px));
+    grid-template-columns: repeat(4, minmax(200px, 400px));
   }
   
   @media ${device.desktop} {

@@ -81,10 +81,6 @@
         {
           "id": "DONE",
           "title": "Done"
-        },
-        {
-          "id": "CLOSED",
-          "title": "Closed"
         }
       ]
     },
@@ -107,10 +103,6 @@
         {
           "id": "DONE",
           "title": "Done"
-        },
-        {
-          "id": "CLOSED",
-          "title": "Closed"
         }
       ]
     },
@@ -133,10 +125,6 @@
         {
           "id": "DONE",
           "title": "Done"
-        },
-        {
-          "id": "CLOSED",
-          "title": "Closed"
         }
       ]
     }
@@ -209,23 +197,6 @@
         }
       ],
       "id": "DONE"
-    },
-    {
-      "tasks": [
-        {
-          "id": "3",
-          "title": "Task 3",
-          "description": "Task some task description 444",
-          "assignee": "1"
-        },
-        {
-          "id": "5f905127-06c2-439a-b533-5f3b8495d9ad",
-          "title": "User",
-          "description": "asd",
-          "assignee": "9"
-        }
-      ],
-      "id": "CLOSED"
     }
   ],
   "board_development_tasks": [
@@ -273,27 +244,6 @@
         }
       ],
       "id": "DONE"
-    },
-    {
-      "tasks": [
-        {
-          "id": "1111",
-          "title": "Task 1",
-          "description": "Task 1 description"
-        },
-        {
-          "id": "ee1dc27c-36fc-4a7b-a93e-79b392f02818",
-          "title": "User",
-          "description": "descr",
-          "assignee": "10"
-        },
-        {
-          "id": "22",
-          "title": "Task 2",
-          "description": "Task some task description 3"
-        }
-      ],
-      "id": "CLOSED"
     }
   ],
   "board_qa_tasks": [
@@ -341,27 +291,6 @@
         }
       ],
       "id": "DONE"
-    },
-    {
-      "tasks": [
-        {
-          "id": "1111",
-          "title": "Task 1",
-          "description": "Task 1 description"
-        },
-        {
-          "id": "ee1dc27c-36fc-4a7b-a93e-79b392f02818",
-          "title": "User",
-          "description": "descr",
-          "assignee": "10"
-        },
-        {
-          "id": "22",
-          "title": "Task 2",
-          "description": "Task some task description 3"
-        }
-      ],
-      "id": "CLOSED"
     }
   ]
 }
