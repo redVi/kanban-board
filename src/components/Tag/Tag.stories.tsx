@@ -5,16 +5,22 @@ export default {
   title: 'Design System/Tag',
   component: T,
   args: {
-    text: 'Tag',
+    text: 'Design',
     kind: 'design',
   },
 } as ComponentMeta<typeof T>;
 
 const Template: ComponentStory<typeof T> = (args) => <T {...args} />;
 
-export const Tag = Template.bind({});
+export const Design = Template.bind({});
+export const Android = Template.bind({});
+export const ios = Template.bind({});
+export const qa = Template.bind({});
 
-Tag.args = {
-  ...Tag.args,
+Design.args = {
+  ...Design.args,
   handleClick: () => alert('Click on tag'),
 };
+Android.args = { kind: 'android', text: 'Android' };
+ios.args = { kind: 'ios', text: 'iOS' };
+qa.args = { kind: 'qa', text: 'qa' };
