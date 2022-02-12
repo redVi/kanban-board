@@ -1,12 +1,8 @@
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-import { Tag } from '@/components';
-import { Title } from '@/components/Title/Title';
-import { Text } from '@/components/Text/Text';
-import { Avatar } from '@/components/Avatar/Avatar';
-import { Card as C } from './Card';
+import { Avatar, Tag, Text, Title, Card as C } from '@/components';
 
 export default {
-  title: 'Design System/Molecules/Card',
+  title: 'Design System/Organisms/Card',
   component: C,
   args: {
     Header: <Tag kind='android' text='android' />,
@@ -29,4 +25,3 @@ const Template: ComponentStory<typeof C> = (args) => <C {...args} />;
 export const Card = Template.bind({});
 
 Card.args = { ...Card.args };
-
