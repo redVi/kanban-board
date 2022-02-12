@@ -2,7 +2,7 @@ import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { Avatar as A } from './Avatar';
 
 export default {
-  title: 'Design System/Avatar',
+  title: 'Design System/Atoms/Avatar',
   component: A,
   args: {
     size: 'normal',

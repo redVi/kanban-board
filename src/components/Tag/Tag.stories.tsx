@@ -2,7 +2,7 @@ import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { Tag as T } from './Tag';
 
 export default {
-  title: 'Design System/Tag',
+  title: 'Design System/Atoms/Tag',
   component: T,
   args: {
     text: 'Design',
