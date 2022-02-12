@@ -4,7 +4,7 @@ import { TagProps } from './Tag.types';
 
 export const Tag: FC<TagProps> = memo(({
   text = '',
-  kind = 'primary',
+  kind = 'design',
   handleClick,
 }) => (
   <s.Wrapper kind={kind} onClick={handleClick}>

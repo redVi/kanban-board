@@ -1,4 +1,4 @@
-const process = require('process');
+const path = require('path');
 
 module.exports = {
   "stories": [
@@ -14,9 +14,8 @@ module.exports = {
   "core": {
     "builder": "webpack5"
   },
-  webpackFinal: (config) => {
-    config.resolve.modules.push(process.cwd() + '/src');
-    config.resolve.symlinks = false;
+  webpackFinal: async (config) => {
+    config.resolve.alias['@'] = path.resolve(__dirname, '../src/');
     return config;
   },
 }

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { colors } from 'typography';
+import { colors } from '@/typography';
 import { tagType, WrapperProps } from './Tag.types';
 
 export const Wrapper = styled.button<WrapperProps>`

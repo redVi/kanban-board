@@ -6,7 +6,7 @@ export default {
   component: T,
   args: {
     text: 'Tag',
-    kind: 'primary',
+    kind: 'design',
   },
 } as ComponentMeta<typeof T>;
 

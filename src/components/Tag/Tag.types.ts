@@ -1,10 +1,10 @@
-import { colors } from 'typography';
+import { colors } from '@/typography';
 
 export const tagType = {
-  primary: colors.green,
-  secondary: colors.violet,
-  black: colors.black,
-  bright: colors.orange,
+  android: colors.green,
+  design: colors.violet,
+  qa: colors.black,
+  ios: colors.orange,
 };
 
 export interface WrapperProps {
