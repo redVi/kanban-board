@@ -5,7 +5,7 @@ export default {
   title: 'Design System/Atoms/Avatar',
   component: A,
   args: {
-    size: 'normal',
+    size: 'small',
   },
 } as ComponentMeta<typeof A>;
 
