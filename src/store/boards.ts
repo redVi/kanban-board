@@ -2,7 +2,6 @@ import { getParent, types, Instance, flow } from 'mobx-state-tree';
 import api from '@/services/api';
 
 export interface IBoardTask extends Instance<typeof Task> {}
-export interface IBoardSection extends Instance<typeof BoardSection> {}
 
 const Task = types.model('Task', {
   id: types.identifier,
