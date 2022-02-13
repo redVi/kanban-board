@@ -1,6 +1,6 @@
-import { ElementType } from 'react';
+import { ElementType, HTMLAttributes } from 'react';
 
-export interface WrapperProps {
+export interface WrapperProps extends HTMLAttributes<Text> {
   color?: string
 }
 

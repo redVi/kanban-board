@@ -1,4 +1,6 @@
-export interface WrapperProps {
+import { HTMLAttributes } from 'react';
+
+export interface WrapperProps extends HTMLAttributes<Text> {
   color?: string
 }
 

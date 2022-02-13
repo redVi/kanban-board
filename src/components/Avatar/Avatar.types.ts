@@ -1,6 +1,7 @@
+import { HTMLAttributes } from 'react';
 export type AvatarSize = 'small' | 'normal' | 'big';
 
-export interface WrapperProps {
+export interface WrapperProps extends HTMLAttributes<HTMLDivElement> {
   size?: AvatarSize
 }
 

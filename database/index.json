@@ -71,7 +71,7 @@
           "title": "Backlog"
         },
         {
-          "id": "TO DO",
+          "id": "TO_DO",
           "title": "To Do"
         },
         {
@@ -93,7 +93,7 @@
           "title": "Backlog"
         },
         {
-          "id": "TO DO",
+          "id": "TO_DO",
           "title": "To Do"
         },
         {
@@ -115,7 +115,7 @@
           "title": "Backlog"
         },
         {
-          "id": "TO DO",
+          "id": "TO_DO",
           "title": "To Do"
         },
         {
@@ -139,16 +139,16 @@
     {
       "tasks": [
         {
-          "id": "1111",
-          "title": "Sidebar fix",
-          "description": "Fix sidebar on the Android menu.",
-          "assignee": "3"
+          "id": "5",
+          "title": "Task 4",
+          "tag": "android",
+          "description": "5555"
         },
         {
-          "id": "ce2eb823-9dbe-4aa5-897f-dae73b89ca56",
+          "id": "1",
           "title": "Conquer the world",
-          "description": "And live in pleasure",
-          "assignee": "1"
+          "tag": "analytics",
+          "description": "And live in pleasure"
         }
       ],
       "id": "BACKLOG"
@@ -156,33 +156,27 @@
     {
       "tasks": [
         {
-          "id": "4",
-          "title": "Task 4",
-          "description": "5555",
-          "assignee": "1"
+          "id": "2",
+          "title": "Make a block",
+          "tag": "web",
+          "description": "A block with a basket"
         },
         {
-          "id": "1",
+          "id": "4",
           "title": "Task some task",
-          "description": "Task some task description",
-          "assignee": "2"
+          "tag": "android",
+          "description": "Task some task description"
         }
       ],
-      "id": "TO DO"
+      "id": "TO_DO"
     },
     {
       "tasks": [
         {
-          "id": "2",
-          "title": "Task 2",
-          "description": "Task some task description 3",
-          "assignee": "1"
-        },
-        {
-          "id": "22",
-          "title": "Task 2",
-          "description": "Task some task description 3",
-          "assignee": "1"
+          "id": "3",
+          "title": "In app purchases",
+          "tag": "ios",
+          "description": "To realize"
         }
       ],
       "id": "IN_PROGRESS"
@@ -190,10 +184,16 @@
     {
       "tasks": [
         {
-          "id": "11",
+          "id": "6",
+          "title": "Sidebar fix",
+          "tag": "android",
+          "description": "Fix sidebar on the Android menu."
+        },
+        {
+          "id": "7",
           "title": "Task 1",
-          "description": "Task 1 description",
-          "assignee": "3"
+          "tag": "web",
+          "description": "Task 1 description"
         }
       ],
       "id": "DONE"
@@ -203,8 +203,9 @@
     {
       "tasks": [
         {
-          "id": "3",
+          "id": "8",
           "title": "Task 3",
+          "tag": "ios",
           "description": "Task some task description 444"
         }
       ],
@@ -213,23 +214,26 @@
     {
       "tasks": [
         {
-          "id": "1",
+          "id": "9",
           "title": "Task some task",
+          "tag": "android",
           "description": "Task some task description"
         },
         {
-          "id": "2",
+          "id": "10",
           "title": "Task 2",
+          "tag": "analytics",
           "description": "Task some task description 3"
         }
       ],
-      "id": "TO DO"
+      "id": "TO_DO"
     },
     {
       "tasks": [
         {
-          "id": "4",
+          "id": "11",
           "title": "Task 4",
+          "tag": "ios",
           "description": "5555"
         }
       ],
@@ -238,8 +242,9 @@
     {
       "tasks": [
         {
-          "id": "11",
+          "id": "12",
           "title": "Task 1",
+          "tag": "ios",
           "description": "Task 1 description"
         }
       ],
@@ -250,8 +255,9 @@
     {
       "tasks": [
         {
-          "id": "3",
+          "id": "13",
           "title": "Task 3",
+          "tag": "android",
           "description": "Task some task description 444"
         }
       ],
@@ -260,23 +266,26 @@
     {
       "tasks": [
         {
-          "id": "1",
+          "id": "14",
           "title": "Task some task",
+          "tag": "web",
           "description": "Task some task description"
         },
         {
-          "id": "2",
+          "id": "15",
           "title": "Task 2",
+          "tag": "analytics",
           "description": "Task some task description 3"
         }
       ],
-      "id": "TO DO"
+      "id": "TO_DO"
     },
     {
       "tasks": [
         {
-          "id": "4",
+          "id": "16",
           "title": "Task 4",
+          "tag": "android",
           "description": "5555"
         }
       ],
@@ -285,8 +294,9 @@
     {
       "tasks": [
         {
-          "id": "11",
+          "id": "17",
           "title": "Task 1",
+          "tag": "analytics",
           "description": "Task 1 description"
         }
       ],

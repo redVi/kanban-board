@@ -1,4 +1,4 @@
-import { Board } from '@/features';
+import { Board } from '@/components';
 import * as s from './Home.styles';
 
 export const Home = () => {
