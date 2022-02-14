@@ -156,22 +156,16 @@
     {
       "tasks": [
         {
-          "id": "30b64801-8204-4b00-af5a-d51d593cee00",
-          "title": "Task about us",
-          "tag": "web",
-          "description": "We here"
-        },
-        {
           "id": "97db02a9-35d2-44ec-b4f6-ae6876308323",
           "title": "Task Name",
           "tag": "ios",
           "description": "New task"
         },
         {
-          "id": "05add16b-1ff2-44a3-b4b0-7dcee508cba3",
-          "title": "New task",
-          "tag": "ios",
-          "description": "Task description"
+          "id": "9c26d673-8b07-4152-b0bb-8d9bf5e9262f",
+          "title": "Redesign header",
+          "tag": "android",
+          "description": "Redesign"
         }
       ],
       "id": "TO_DO"
@@ -179,16 +173,22 @@
     {
       "tasks": [
         {
+          "id": "05add16b-1ff2-44a3-b4b0-7dcee508cba3",
+          "title": "New task",
+          "tag": "ios",
+          "description": "Task description"
+        },
+        {
           "id": "6ef8e8ad-6d1c-479a-8797-5883eff63f7e",
           "title": "Ho",
           "tag": "analytics",
           "description": "Ho desk"
         },
         {
-          "id": "9c26d673-8b07-4152-b0bb-8d9bf5e9262f",
-          "title": "Redesign header",
-          "tag": "android",
-          "description": "Redesign"
+          "id": "30b64801-8204-4b00-af5a-d51d593cee00",
+          "title": "Task about us",
+          "tag": "web",
+          "description": "We here"
         }
       ],
       "id": "IN_PROGRESS"
@@ -209,42 +209,19 @@
     {
       "tasks": [
         {
-          "id": "8",
-          "title": "Task 3",
-          "tag": "ios",
-          "description": "Task some task description 444"
-        },
-        {
-          "id": "10",
-          "title": "Task 2",
-          "tag": "analytics",
-          "description": "Task some task description 3"
-        },
-        {
-          "id": "362a4c98-f6a4-4549-96e3-c55766ba849a",
-          "title": "Create animations",
-          "tag": "android",
-          "description": "Show me the code"
-        }
-      ],
-      "id": "BACKLOG"
-    },
-    {
-      "tasks": [
-        {
-          "id": "495022e1-43ff-4615-8693-416f756dbe60",
-          "title": "Publish app",
-          "tag": "android",
-          "description": "publish to google play"
-        },
-        {
           "id": "3742583d-7dcc-443f-a0ff-46ae4ad33b4d",
           "title": "Task from boss",
           "tag": "analytics",
           "description": "Task description"
+        },
+        {
+          "id": "8",
+          "title": "Task 3",
+          "tag": "ios",
+          "description": "Task some task description 444"
         }
       ],
-      "id": "TO_DO"
+      "id": "BACKLOG"
     },
     {
       "tasks": [
@@ -253,6 +230,23 @@
           "title": "For web",
           "tag": "web",
           "description": "task for web"
+        },
+        {
+          "id": "362a4c98-f6a4-4549-96e3-c55766ba849a",
+          "title": "Create animations",
+          "tag": "android",
+          "description": "Show me the code"
+        }
+      ],
+      "id": "TO_DO"
+    },
+    {
+      "tasks": [
+        {
+          "id": "495022e1-43ff-4615-8693-416f756dbe60",
+          "title": "Publish app",
+          "tag": "android",
+          "description": "publish to google play"
         },
         {
           "id": "11",
@@ -270,6 +264,12 @@
           "title": "Task 1",
           "tag": "ios",
           "description": "Task 1 description"
+        },
+        {
+          "id": "10",
+          "title": "Task 2",
+          "tag": "analytics",
+          "description": "Task some task description 3"
         }
       ],
       "id": "DONE"
