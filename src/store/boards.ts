@@ -1,4 +1,4 @@
-import { getParent, types, Instance, flow, cast, onSnapshot } from 'mobx-state-tree';
+import { getParent, types, Instance, flow, onSnapshot } from 'mobx-state-tree';
 import api from '@/services/api';
 
 export interface IBoardTask extends Instance<typeof Task> {}
@@ -23,7 +23,7 @@ const BoardSection = types.model('BoardSection', {
     load: flow(function* () {
       try {
         const { tasks } = yield api.get(`boards/${boardID}/tasks/${id}`);
-        self.tasks = cast(tasks);
+        self.tasks = tasks;
         // @ts-ignore
         onSnapshot(self, self.save);
       } catch (err) {
@@ -31,10 +31,7 @@ const BoardSection = types.model('BoardSection', {
       }
     }),
     save: flow(function* ({ tasks }) {
-      const { id: boardID } = getParent(self, 2);
-      const { id: status } = self;
-
-      yield api.put(`boards/${boardID}/tasks/${status}`, { tasks });
+      yield api.put(`boards/${boardID}/tasks/${id}`, { tasks });
     }),
     afterCreate() {
       this.load();
@@ -76,6 +73,10 @@ export const BoardStore = types.model('BoardStore', {
         console.error(err);
       }
     }),
+    changeBoard: function (boardName: string) {
+      // @ts-ignore
+      self.active = boardName;
+    },
     afterCreate() {
       this.load();
     },

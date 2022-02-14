@@ -139,63 +139,24 @@
     {
       "tasks": [
         {
-          "id": "5",
-          "title": "Task 4",
-          "tag": "android",
-          "description": "5555"
-        },
-        {
-          "id": "1",
-          "title": "Conquer the world",
-          "tag": "analytics",
-          "description": "And live in pleasure"
-        }
-      ],
-      "id": "BACKLOG"
-    },
-    {
-      "tasks": [
-        {
-          "id": "2",
-          "title": "Make a block",
-          "tag": "web",
-          "description": "A block with a basket"
-        },
-        {
-          "id": "4",
-          "title": "Task some task",
-          "tag": "android",
-          "description": "Task some task description"
-        }
-      ],
-      "id": "TO_DO"
-    },
-    {
-      "tasks": [
-        {
-          "id": "3",
-          "title": "In app purchases",
-          "tag": "ios",
-          "description": "To realize"
-        }
-      ],
-      "id": "IN_PROGRESS"
-    },
-    {
-      "tasks": [
-        {
-          "id": "6",
-          "title": "Sidebar fix",
-          "tag": "android",
-          "description": "Fix sidebar on the Android menu."
-        },
-        {
           "id": "7",
           "title": "Task 1",
           "tag": "web",
           "description": "Task 1 description"
         }
       ],
+      "id": "BACKLOG"
+    },
+    {
+      "tasks": [],
+      "id": "TO_DO"
+    },
+    {
+      "tasks": [],
+      "id": "IN_PROGRESS"
+    },
+    {
+      "tasks": [],
       "id": "DONE"
     }
   ],
@@ -207,17 +168,6 @@
           "title": "Task 3",
           "tag": "ios",
           "description": "Task some task description 444"
-        }
-      ],
-      "id": "BACKLOG"
-    },
-    {
-      "tasks": [
-        {
-          "id": "9",
-          "title": "Task some task",
-          "tag": "android",
-          "description": "Task some task description"
         },
         {
           "id": "10",
@@ -226,6 +176,10 @@
           "description": "Task some task description 3"
         }
       ],
+      "id": "BACKLOG"
+    },
+    {
+      "tasks": [],
       "id": "TO_DO"
     },
     {
@@ -255,6 +209,12 @@
     {
       "tasks": [
         {
+          "id": "15",
+          "title": "Task 2",
+          "tag": "analytics",
+          "description": "Task some task description 3"
+        },
+        {
           "id": "13",
           "title": "Task 3",
           "tag": "android",
@@ -270,12 +230,6 @@
           "title": "Task some task",
           "tag": "web",
           "description": "Task some task description"
-        },
-        {
-          "id": "15",
-          "title": "Task 2",
-          "tag": "analytics",
-          "description": "Task some task description 3"
         }
       ],
       "id": "TO_DO"
