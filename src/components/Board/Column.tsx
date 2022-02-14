@@ -32,7 +32,10 @@ export const Column: FC<IBoard> = observer(({ section }) => (
             )}
           >
             {/* @ts-ignore */}
-            <Card Header={<Tag text={task.tag} kind={task.tag} />} Footer={<Avatar />}>
+            <Card kind={task.tag}
+              Header={<Tag text={task.tag} />}
+              Footer={<Avatar />}
+            >
               <Title tag='h2' text={task.title} />
               <Text>{task.description}</Text>
             </Card>
@@ -42,3 +45,5 @@ export const Column: FC<IBoard> = observer(({ section }) => (
     ))}
   </>
 ));
+
+Column.displayName = 'Column';

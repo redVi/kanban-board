@@ -156,28 +156,28 @@
     {
       "tasks": [
         {
-          "id": "05add16b-1ff2-44a3-b4b0-7dcee508cba3",
-          "title": "New task",
-          "tag": "ios",
-          "description": "Task description"
-        },
-        {
           "id": "30b64801-8204-4b00-af5a-d51d593cee00",
           "title": "Task about us",
           "tag": "web",
           "description": "We here"
-        }
-      ],
-      "id": "TO_DO"
-    },
-    {
-      "tasks": [
+        },
         {
           "id": "97db02a9-35d2-44ec-b4f6-ae6876308323",
           "title": "Task Name",
           "tag": "ios",
           "description": "New task"
         },
+        {
+          "id": "05add16b-1ff2-44a3-b4b0-7dcee508cba3",
+          "title": "New task",
+          "tag": "ios",
+          "description": "Task description"
+        }
+      ],
+      "id": "TO_DO"
+    },
+    {
+      "tasks": [
         {
           "id": "6ef8e8ad-6d1c-479a-8797-5883eff63f7e",
           "title": "Ho",

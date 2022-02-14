@@ -1,6 +1,7 @@
+import { v4 as uuid } from 'uuid';
 import { getParent, types, Instance, flow, onSnapshot } from 'mobx-state-tree';
 import api from '@/services/api';
-import { v4 as uuid } from 'uuid';
+import { User } from '@/store/users';
 
 export interface IBoardTask extends Instance<typeof Task> {}
 export interface IBoardSection extends Instance<typeof BoardSection> {}
@@ -10,6 +11,7 @@ const Task = types.model('Task', {
   title: types.string,
   tag: types.string,
   description: types.string,
+  assignee: types.safeReference(User),
 });
 
 const BoardSection = types.model('BoardSection', {
