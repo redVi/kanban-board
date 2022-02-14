@@ -8,5 +8,6 @@ export const colors = {
   dark: '#5E6C81',
   black: '#202225',
   orange: '#EB9B51',
+  red: '#ff0040',
   green: '#57A84A',
 };

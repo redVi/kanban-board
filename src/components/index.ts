@@ -6,4 +6,5 @@ export { Tag } from './Tag/Tag';
 export { Text } from './Text/Text';
 export { Title } from './Title/Title';
 export { Header } from './Header/Header';
-export { BoardHeader } from './Header/BoardHeader';
+export { BoardHeader } from './BoardHeader/BoardHeader';
+export { Modal } from './Modal/Modal';
