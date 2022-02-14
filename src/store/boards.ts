@@ -1,5 +1,6 @@
 import { getParent, types, Instance, flow, onSnapshot } from 'mobx-state-tree';
 import api from '@/services/api';
+import { v4 as uuid } from 'uuid';
 
 export interface IBoardTask extends Instance<typeof Task> {}
 export interface IBoardSection extends Instance<typeof BoardSection> {}
@@ -55,6 +56,12 @@ const Board = types.model('Board', {
       const [task] = fromSection.tasks.splice(taskToMoveIndex, 1);
       // @ts-ignore
       toSection.tasks.splice(destination.index, 0, task.toJSON());
+    },
+    addTask: function (task: IBoardTask) {
+      console.log('task', task);
+
+      task.id = uuid();
+      self.sections[0].tasks.push(task);
     },
   };
 });

@@ -139,24 +139,63 @@
     {
       "tasks": [
         {
+          "id": "31dc65ca-4d07-4946-ae99-d4b6479cd1e8",
+          "title": "Task about us",
+          "tag": "web",
+          "description": "We here"
+        },
+        {
+          "id": "45cf8896-b03b-4fab-8e2d-f8ff67d725af",
+          "title": "New task",
+          "tag": "analytics",
+          "description": "dd"
+        }
+      ],
+      "id": "BACKLOG"
+    },
+    {
+      "tasks": [
+        {
+          "id": "05add16b-1ff2-44a3-b4b0-7dcee508cba3",
+          "title": "New task",
+          "tag": "ios",
+          "description": "Task description"
+        },
+        {
+          "id": "30b64801-8204-4b00-af5a-d51d593cee00",
+          "title": "Task about us",
+          "tag": "web",
+          "description": "We here"
+        }
+      ],
+      "id": "TO_DO"
+    },
+    {
+      "tasks": [
+        {
+          "id": "6ef8e8ad-6d1c-479a-8797-5883eff63f7e",
+          "title": "Ho",
+          "tag": "analytics",
+          "description": "Ho desk"
+        },
+        {
+          "id": "9c26d673-8b07-4152-b0bb-8d9bf5e9262f",
+          "title": "Redesign header",
+          "tag": "android",
+          "description": "Redesign"
+        }
+      ],
+      "id": "IN_PROGRESS"
+    },
+    {
+      "tasks": [
+        {
           "id": "7",
           "title": "Task 1",
           "tag": "web",
           "description": "Task 1 description"
         }
       ],
-      "id": "BACKLOG"
-    },
-    {
-      "tasks": [],
-      "id": "TO_DO"
-    },
-    {
-      "tasks": [],
-      "id": "IN_PROGRESS"
-    },
-    {
-      "tasks": [],
       "id": "DONE"
     }
   ],
@@ -179,11 +218,30 @@
       "id": "BACKLOG"
     },
     {
-      "tasks": [],
+      "tasks": [
+        {
+          "id": "495022e1-43ff-4615-8693-416f756dbe60",
+          "title": "Publish app",
+          "tag": "android",
+          "description": "publish to google play"
+        },
+        {
+          "id": "3742583d-7dcc-443f-a0ff-46ae4ad33b4d",
+          "title": "Task from boss",
+          "tag": "analytics",
+          "description": "Task description"
+        }
+      ],
       "id": "TO_DO"
     },
     {
       "tasks": [
+        {
+          "id": "8f27eae3-6ad4-4b3a-88d3-341a434fead2",
+          "title": "For web",
+          "tag": "web",
+          "description": "task for web"
+        },
         {
           "id": "11",
           "title": "Task 4",
