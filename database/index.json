@@ -156,16 +156,16 @@
     {
       "tasks": [
         {
+          "id": "7",
+          "title": "Task 1",
+          "tag": "web",
+          "description": "Task 1 description"
+        },
+        {
           "id": "97db02a9-35d2-44ec-b4f6-ae6876308323",
           "title": "Task Name",
           "tag": "ios",
           "description": "New task"
-        },
-        {
-          "id": "9c26d673-8b07-4152-b0bb-8d9bf5e9262f",
-          "title": "Redesign header",
-          "tag": "android",
-          "description": "Redesign"
         }
       ],
       "id": "TO_DO"
@@ -173,16 +173,10 @@
     {
       "tasks": [
         {
-          "id": "05add16b-1ff2-44a3-b4b0-7dcee508cba3",
-          "title": "New task",
-          "tag": "ios",
-          "description": "Task description"
-        },
-        {
-          "id": "6ef8e8ad-6d1c-479a-8797-5883eff63f7e",
-          "title": "Ho",
-          "tag": "analytics",
-          "description": "Ho desk"
+          "id": "9c26d673-8b07-4152-b0bb-8d9bf5e9262f",
+          "title": "Redesign header",
+          "tag": "android",
+          "description": "Redesign"
         },
         {
           "id": "30b64801-8204-4b00-af5a-d51d593cee00",
@@ -196,10 +190,16 @@
     {
       "tasks": [
         {
-          "id": "7",
-          "title": "Task 1",
-          "tag": "web",
-          "description": "Task 1 description"
+          "id": "6ef8e8ad-6d1c-479a-8797-5883eff63f7e",
+          "title": "Ho",
+          "tag": "analytics",
+          "description": "Ho desk"
+        },
+        {
+          "id": "05add16b-1ff2-44a3-b4b0-7dcee508cba3",
+          "title": "New task",
+          "tag": "ios",
+          "description": "Task description"
         }
       ],
       "id": "DONE"
@@ -296,19 +296,30 @@
     {
       "tasks": [
         {
-          "id": "14",
-          "title": "Task some task",
-          "tag": "web",
-          "description": "Task some task description"
-        },
-        {
           "id": "13",
           "title": "Task 3",
           "tag": "android",
           "description": "Task some task description 444"
+        },
+        {
+          "id": "14",
+          "title": "Task some task",
+          "tag": "web",
+          "description": "Task some task description"
         }
       ],
       "id": "TO_DO"
+    },
+    {
+      "tasks": [
+        {
+          "id": "f99f48bf-b056-4cae-9c46-8977f400c9fa",
+          "title": "Auto tests",
+          "tag": "ios",
+          "description": "Write auto tests for feature"
+        }
+      ],
+      "id": "IN_PROGRESS"
     },
     {
       "tasks": [
@@ -317,12 +328,7 @@
           "title": "Task 4",
           "tag": "android",
           "description": "5555"
-        }
-      ],
-      "id": "IN_PROGRESS"
-    },
-    {
-      "tasks": [
+        },
         {
           "id": "17",
           "title": "Task 1",

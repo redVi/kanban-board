@@ -1,5 +1,5 @@
 import { v4 as uuid } from 'uuid';
-import { getParent, types, Instance, flow, onSnapshot } from 'mobx-state-tree';
+import { getParent, types, Instance, flow, onSnapshot, getSnapshot } from 'mobx-state-tree';
 import api from '@/services/api';
 import { User } from '@/store/users';
 
@@ -56,12 +56,10 @@ const Board = types.model('Board', {
 
       const taskToMoveIndex = fromSection.tasks.findIndex(task => task.id === taskId);
       const [task] = fromSection.tasks.splice(taskToMoveIndex, 1);
-      // @ts-ignore
-      toSection.tasks.splice(destination.index, 0, task.toJSON());
+
+      toSection.tasks.splice(destination.index, 0, getSnapshot(task));
     },
     addTask: function (task: IBoardTask) {
-      console.log('task', task);
-
       task.id = uuid();
       self.sections[0].tasks.push(task);
     },
